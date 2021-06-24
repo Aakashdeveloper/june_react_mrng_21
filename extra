@@ -1,0 +1,85 @@
+https://github.com/Aakashdeveloper
+https://nodejs.org/en/
+https://code.visualstudio.com/download
+
+Basic JavaScript
+Npm
+React = 3
+Mock API
+json-server
+React-JWT(Login Logout)-2
+Depolyment
+-> MERN
+-> Docker
+-> heroku
+-> Nginx
+Github
+
+React-GraphQL-1
+React_hooks -1
+Basic React Native=1
+React-Redux =1
+React-Redux =1
+Testing Jest Enzime
+
+React-Saga -1
+React-with-typescript-1
+--------NOT Backend--------------
+API
+GraphQL
+Login/Logout
+
+//extensions
+> Auto Close
+> EsLint
+> Git History
+> Git Lens 
+> Tab Nine 
+
+///////////////////////////////
+React > react is frontend framework/lib which help to build single page
+application using component base structure
+//////////////////////////////
+
+open source > anybody can contribute
+
+npm > node package manager
+
+JSON > JavaScript Object Notation
+[
+    {
+        name:'John',
+        city:'Delhi'
+    },
+    {
+        name:'Nikita',
+        city:'Paris',
+        country:'France'
+    }
+]
+
+////////////////////////////////
+package.json
+
+> starting point to the application
+> script (start,build,test)
+> package we require for app
+> metadata description,name, version
+
+
+////////////////////////////////
+Step to generate package.json
+
+**NodeJs must be installed in system
+> go install the folder using cmd
+> npm init
+> answer all questions
+> type "yes"
+
+
+////////////////////////////////
+Step to install package 
+
+**NodeJs must be installed in system
+> go install the folder using cmd
+> npm i package name  / npm i package name@16.6.7
