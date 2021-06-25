@@ -83,3 +83,42 @@ Step to install package
 **NodeJs must be installed in system
 > go install the folder using cmd
 > npm i package name  / npm i package name@16.6.7
+
+
+////////////////////////////////
+Step to generate React app
+////////////////////////////////
+>>>>>one time<<<<<<<<<<<<<<<<<<
+#window
+> open cmd as admin 
+> npm i -g create-react-app
+
+>>>>>next everytime you need new app<<<<<<<<<<<<<<<<<<
+> go inside the folder using cmd
+> create-react-app appname 
+
+
+#mac/linux
+> open terminal
+> sudo npm i -g create-react-app
+
+>>>>>next everytime you need new app<<<<<<<<<<<<<<<<<<
+> go inside the folder using cmd
+> create-react-app appname 
+
+#office laptop 
+
+>>>>>next everytime you need new app<<<<<<<<<<<<<<<<<<
+> go inside the folder using cmd
+> npx create-react-app appname 
+
+////////////////////////////////
+Step to run react app 
+////////////////////////////////
+> go inside the application using cmd
+> npm start 
+> localhost:3000
+
+"react": Main library
+"react-dom": Help to display content on browser
+"react-scripts": Help to start the app
