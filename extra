@@ -122,3 +122,25 @@ Step to run react app
 "react": Main library
 "react-dom": Help to display content on browser
 "react-scripts": Help to start the app
+
+
+
+function test(a,b){
+    return a,b
+}
+
+test(1,2)
+2
+
+///////////
+class 
+> logical Component
+> all the logics like APi, event, databinding
+> can maintain state 
+
+function
+> Dumb component
+> use for only display purpose
+> cannot maintain state
+
+Hooks  
