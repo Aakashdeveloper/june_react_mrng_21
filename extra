@@ -144,3 +144,24 @@ function
 > cannot maintain state
 
 Hooks  
+
+State
+> state act like a local variable
+> any data interaction will happen through state
+> It is mutable (we can update the value fo state)
+
+Props
+> Props help to transfer the data
+> immutable ( we cannot update the value of props)
+> it can only transfer data between 2 nested component
+
+
+>>> whenever state update happen component will re-render(call render function again)
+
+
+JavaScript
+>>> map 
+>>> filter 
+>>> indexof
+
+>>> ternory operator

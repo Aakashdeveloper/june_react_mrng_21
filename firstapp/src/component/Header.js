@@ -1,24 +1,31 @@
 import React,{Fragment, Component} from 'react';
+import './Header.css';
 
+// class component
 class Header extends Component {
-    render(){
-        const myStyle = {
-            header:{
-                backgroundColor:'tomato'    
-            },
-            logo:{
-                fontSize:'30px',
-                color:'white',
-                textAlign:'center'
-            }
+    constructor(){
+        super()
+
+        this.state={
+            title:'My React App',
+            keyword: 'user input here'
         }
+    }
+
+    handleChange=(event)=>{
+        console.log(event.target.value)
+        this.setState({keyword:event.target.value})
+    }
+
+    render(){
+        console.log("inside render")
         return(
             <Fragment>
-                <header style={myStyle.header}>
-                    <div style={myStyle.logo}>React App</div>
+                <header>
+                    <div className="logo">{this.state.title}</div>
                     <center>
-                        <input/>
-                        <div style={{color:'white'}}>User Text Here</div>
+                        <input onChange={this.handleChange}/>
+                        <div style={{color:'white'}}>{this.state.keyword}</div>
                     </center>
                     <hr/>
                 </header>
@@ -26,17 +33,5 @@ class Header extends Component {
         ) 
     }
 }
-
-/*
-const Header = () => {
-    return(
-        <Fragment>
-            <center>
-                <h1>React App</h1>
-            </center>
-            <hr/>
-        </Fragment>
-    )
-}*/
 
 export default Header;
