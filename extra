@@ -165,3 +165,46 @@ JavaScript
 >>> indexof
 
 >>> ternory operator
+
+
+var a = [2,4,5,6,7,8]
+a.map((data) => {return data*2})
+[4, 8, 10, 12, 14, 16]
+
+a.map((data) => {return `<p>${data*2}</p>`})
+
+string literal
+var a = 10
+var b = "my age is "+a   
+"my age is 10"
+
+var c = `my age is ${a}`
+"my age is 10"
+
+///////////
+parent > child  ( props )
+child > parent  ( props with function (callback))
+
+parent 
+function add(a,b){
+    return a+b
+}
+
+child
+add(1,2)
+
+var a = [3,5,6,2,4,5,8,7,9,3]
+a.filter((data) => {return data>4})
+[5, 6, 5, 8, 7, 9]
+
+
+var city = ["Delhi","Mumbai","Newyork"]
+undefined
+city.indexOf('Delhi')
+0
+city.indexOf('Mumbai')
+1
+city.indexOf('Amsterdam')
+-1
+city.indexOf('Nice')
+-1
