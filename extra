@@ -199,7 +199,7 @@ a.filter((data) => {return data>4})
 
 
 var city = ["Delhi","Mumbai","Newyork"]
-undefined
+
 city.indexOf('Delhi')
 0
 city.indexOf('Mumbai')
@@ -208,3 +208,8 @@ city.indexOf('Amsterdam')
 -1
 city.indexOf('Nice')
 -1
+
+>>>>>><<<<<<<
+routing
+>>>>><<<<<< 
+npm i react-router-dom    
