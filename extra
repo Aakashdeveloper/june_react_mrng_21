@@ -2,7 +2,7 @@ https://github.com/Aakashdeveloper
 https://nodejs.org/en/
 https://code.visualstudio.com/download
 
-Basic JavaScript
+
 Npm
 React = 3
 Mock API
@@ -13,6 +13,7 @@ Depolyment
 -> Docker
 -> heroku
 -> Nginx
+-> Aws
 Github
 
 React-GraphQL-1
@@ -22,6 +23,7 @@ React-Redux =1
 React-Redux =1
 Testing Jest Enzime
 
+//walkthrough
 React-Saga -1
 React-with-typescript-1
 --------NOT Backend--------------
