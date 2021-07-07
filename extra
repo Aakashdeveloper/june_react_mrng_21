@@ -157,6 +157,13 @@ Props
 > immutable ( we cannot update the value of props)
 > it can only transfer data between 2 nested component
 
+Params (/1) (compulsory)
+QueryParams (?name=keev) (optional)
+
+Default Props (under routing)
+match > for params
+history > for redirection
+location > for query params
 
 >>> whenever state update happen component will re-render(call render function again)
 
