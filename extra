@@ -239,3 +239,20 @@ npm i react-router-dom
 (post)placebooking >  https://developerfunnel.herokuapp.com/placeBook
 
 npm i react-router-dom axios
+npm i -g json-server
+
+ <h4>
+                                    <span class="label label-primary">
+                                        {details.type[0].name}
+                                    </span>
+                                </h4>
+                                <h4>
+                                    <span class="label label-info">
+                                        {details.type[1].name}
+                                    </span>
+                                </h4>
+                                <h4>
+                                    <span class="label label-primary">
+                                        {details.type[2].name}
+                                    </span>
+                                </h4>
