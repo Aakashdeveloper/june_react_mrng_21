@@ -1,5 +1,20 @@
 {
-    "bookings":[
-        
-    ]
+  "bookings": [
+    {
+      "id": 3895,
+      "hotel_name": "Hometel Chandigarh",
+      "name": "Aakash",
+      "phone": "8876792892",
+      "email": "aakash@gmail.com",
+      "cost": "2419"
+    },
+    {
+      "id": 557856,
+      "hotel_name": "The Piccadily",
+      "name": "Nikita",
+      "phone": "7867667666",
+      "email": "nikita@gmail.com",
+      "cost": "5170"
+    }
+  ]
 }

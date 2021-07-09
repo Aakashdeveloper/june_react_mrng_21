@@ -7,6 +7,7 @@ Npm
 React = 3
 Mock API
 json-server
+
 React-JWT(Login Logout)-2
 Depolyment
 -> MERN
@@ -241,18 +242,5 @@ npm i react-router-dom
 npm i react-router-dom axios
 npm i -g json-server
 
- <h4>
-                                    <span class="label label-primary">
-                                        {details.type[0].name}
-                                    </span>
-                                </h4>
-                                <h4>
-                                    <span class="label label-info">
-                                        {details.type[1].name}
-                                    </span>
-                                </h4>
-                                <h4>
-                                    <span class="label label-primary">
-                                        {details.type[2].name}
-                                    </span>
-                                </h4>
+//dummy api
+json-server --watch booking.json --port 7600
