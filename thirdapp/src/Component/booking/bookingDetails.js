@@ -1,6 +1,7 @@
 import React from 'react';
 
 const BookingDisplay = (props) => {
+
     const renderTable = ({bookdata}) => {
         if(bookdata){
             return bookdata.map((item) => {
@@ -19,6 +20,7 @@ const BookingDisplay = (props) => {
             })
         }
     }
+    
     return(
         <div className="container">
             <center><h3>Booking List</h3></center>

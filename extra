@@ -244,3 +244,30 @@ npm i -g json-server
 
 //dummy api
 json-server --watch booking.json --port 7600
+
+
+function add(a,b){
+    return a,b
+}
+
+add(1,2)
+
+location
+Location {ancestorOrigins: DOMStringList, href: "http://localhost:3000/viewBooking?status=TXN_SUCCE…e=2021-07-12%2007:18:18.0&bank=Bank%20of%20Baroda", origin: "http://localhost:3000", protocol: "http:", host: "localhost:3000", …}
+location.search
+"?status=TXN_SUCCESS&ORDERID=TEST_798901&date=2021-07-12%2007:18:18.0&bank=Bank%20of%20Baroda"
+location.search.split('&')
+(4) ["?status=TXN_SUCCESS", "ORDERID=TEST_798901", "date=2021-07-12%2007:18:18.0", "bank=Bank%20of%20Baroda"]0: "?status=TXN_SUCCESS"1: "ORDERID=TEST_798901"2: "date=2021-07-12%2007:18:18.0"3: "bank=Bank%20of%20Baroda"length: 4__proto__: Array(0)
+location.search.split('&')[0].split('=')
+(2) ["?status", "TXN_SUCCESS"]0: "?status"1: "TXN_SUCCESS"length: 2__proto__: Array(0)
+location.search.split('&')[0].split('=')[0]
+"?status"
+location.search.split('&')[0].split('=')[1]
+                                      
+"TXN_SUCCESS"
+location.search.split('&')[1].split('=')[1]
+"TEST_798901"
+location.search.split('&')[2].split('=')[1]
+"2021-07-12%2007:18:18.0"
+location.search.split('&')[3].split('=')[1]
+"Bank%20of%20Baroda"

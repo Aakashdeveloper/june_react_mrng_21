@@ -1,20 +1,15 @@
 {
   "bookings": [
     {
-      "id": 3895,
+      "id": 459242,
       "hotel_name": "Hometel Chandigarh",
       "name": "Aakash",
-      "phone": "8876792892",
+      "phone": "767876786",
       "email": "aakash@gmail.com",
-      "cost": "2419"
-    },
-    {
-      "id": 557856,
-      "hotel_name": "The Piccadily",
-      "name": "Nikita",
-      "phone": "7867667666",
-      "email": "nikita@gmail.com",
-      "cost": "5170"
+      "cost": "2419",
+      "status": "TXN_SUCCESS",
+      "date": "2021-07-12%2007:33:26.0",
+      "bank": "State%20Bank%20of%20India"
     }
   ]
 }
