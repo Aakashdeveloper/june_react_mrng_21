@@ -13,6 +13,12 @@ class UserList extends Component {
     }
 
     render(){
+        if(sessionStorage.getItem('ltk') === null){
+            this.props.history.push('/')
+        }
+        if(sessionStorage.getItem('ltk') !== null && sessionStorage.getItem('rtk') !== 'admin'){
+            this.props.history.push('/profile')
+        }
         return(
             <div>
                 <UserDisplay userdata={this.state.users}></UserDisplay>
