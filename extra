@@ -7,15 +7,16 @@ Npm
 React = 3
 Mock API
 json-server
-/////////////////////////////////
 React-JWT(Login Logout)-2
+Github
 Depolyment
 -> MERN
--> Docker
 -> heroku
+/////////////////////////////////
+-> Docker
 -> Nginx
 -> Aws
-Github
+
 
 React-GraphQL-1
 React_hooks -1

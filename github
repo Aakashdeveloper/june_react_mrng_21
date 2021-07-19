@@ -1,0 +1,17 @@
+// first time new folder/new repo
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/react_may.git
+git push -u origin master
+
+// next all time
+git add .
+git commit -m "first commit"
+git push
+
+
+////////////////////////////////
+git checkout -b homepage
+
+git pull
