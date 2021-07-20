@@ -12,12 +12,10 @@ Github
 Depolyment
 -> MERN
 -> heroku
-/////////////////////////////////
 -> Docker
 -> Nginx
 -> Aws
-
-
+/////////////////////////////////
 React-GraphQL-1
 React_hooks -1
 Basic React Native=1
@@ -295,3 +293,9 @@ location.search.split('&')[3].split('=')[1]
 
 
 https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps
+
+
+docker build . -t reactapp
+docker image ls 
+docker run -p 5800:3000 reactapp
+docker system prune -a
