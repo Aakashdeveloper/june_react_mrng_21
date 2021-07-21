@@ -15,8 +15,10 @@ Depolyment
 -> Docker
 -> Nginx
 -> Aws
-/////////////////////////////////
 React-GraphQL-1
+
+
+/////////////////////////////////
 React_hooks -1
 Basic React Native=1
 React-Redux =1
@@ -299,3 +301,11 @@ docker build . -t reactapp
 docker image ls 
 docker run -p 5800:3000 reactapp
 docker system prune -a
+
+npm i apollo-boost apollo-graphql graphql graphql-tag react-apollo
+
+///////
+step to generate react native
+////// 
+> npm i -g create-react-native-app
+> create-react-native-app appname

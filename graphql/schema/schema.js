@@ -31,7 +31,7 @@ const RootQuery = new GraphQLObjectType({
             type:ProductType,
             args:{id:{type:GraphQLInt}},
             resolve(parentValue,args){
-                return axios.get(`http://localhost:8900/products/${args.id}`)
+                return axios.get(`http://localhost:8700/products/${args.id}`)
                 .then((res)=>res.data)
             }
         }
