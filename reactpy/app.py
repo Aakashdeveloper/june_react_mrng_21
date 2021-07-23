@@ -1,9 +1,12 @@
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, render_template
 
-app = Flask(__name__, static_url_path='/static')
+app = Flask(__name__, static_folder="build/static", template_folder="build")
 
-@app.route('/')
-def home_page():
+@app.route("/")
+def hello():
     return render_template('index.html')
-    
-app.run(port=3300)
+
+print('Starting Flask!')
+
+app.debug=True
+app.run(host='0.0.0.0')
