@@ -1,12 +1,22 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React,{useState} from 'react';
+import { StyleSheet, Text, View, Button, Alert } from 'react-native';
+import Home from './Component/home'
 
-export default function App() {
+function App() {
+  const [outputText, setText] = useState('Test Native Button');
+
+  const changeText = () => {
+    setText('Test Native Button')
+  }
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Text>React Native</Text>
+      <Text>{outputText}</Text>
+      <Button title="Click Me" onPress={() => Alert.alert('Testing Native Button')}/>
+      <Button title="Change text" onPress={() =>{setText('Text Changed')}}/>
+      <Button title="Revert text" onPress={changeText}/>
+      <Home/>
     </View>
   );
 }
@@ -19,3 +29,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+export default App;
