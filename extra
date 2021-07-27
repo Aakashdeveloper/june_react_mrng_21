@@ -19,8 +19,8 @@ React-GraphQL-1
 React_hooks -1
 HOC
 Basic React Native=1
-/////////////////////////////////
 React-Redux =1
+/////////////////////////////////
 React-Redux =1
 Testing Jest Enzime
 
@@ -313,3 +313,6 @@ step to generate react native
 install expo app in mobile
 
 https://www.codingame.com/playgrounds/8595/reactjs-higher-order-components-tutorial
+
+
+npm i redux react-redux redux-logger
